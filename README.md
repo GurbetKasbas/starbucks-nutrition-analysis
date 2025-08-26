@@ -19,7 +19,7 @@ Proje kapsamında çeşitli analizler ve görselleştirmeler yapılmıştır. Ö
 <p>Ortalama kalori değeri en yüksek ürün kategorileri "Bakery" ve "Sandwiches" olarak belirlenmiştir.
 
 <p>Protein değeri açısından "Sandwiches" ve hemen ardından "Bistro box" kategorileri diğer kategorilere kıyasla daha zengindir.
-<p>En fazla ürün çeşidine sahip kategorinin "Bakery" olduğu görülmüştür.
+
 <div style="display: flex; gap: 10px;">
   <img src="assets/kalori_dagilimi.png" alt=Kalori Dağılımları" width="350"/>
   <img src="assets/karbonkidrat.png" alt="Karbonhidrat Dağılımı" width="340"/>
@@ -30,6 +30,7 @@ Proje kapsamında çeşitli analizler ve görselleştirmeler yapılmıştır. Ö
 <div>
   <img src="assets/korelasyon.png" alt=Isı Haritası" width="350"/>
 </div>
+
 ## Makine Öğrenmesi Modeli
 **Amaç:** 
 Bir ürünün kalori, yağ, karbonhidrat, lif ve protein değerlerine bakarak hangi type (kategori) olduğunu tahmin eden bir makine öğrenmesi modeli geliştirilmiştir.
@@ -41,6 +42,10 @@ Karar Ağacı Sınıflandırıcısı (DecisionTreeClassifier) kullanılmıştır
 Model, test verileri üzerinde %75'lik bir doğruluk oranı (accuracy) elde etmiştir.
 
 ## Modelin Görselleştirilmesi
+
 Aşağıda, eğitilmiş olan Karar Ağacı modelinin görsel bir temsilini bulabilirsiniz. Bu görsel, modelin hangi özelliklere (calories, fat, carb, fiber, protein) göre nasıl kararlar verdiğini ve ürünleri farklı kategorilere ayırdığını net bir şekilde göstermektedir.
-<img src="assets/karar_agaci.png" alt="Karar Ağacı" width="500"/>
+<div> 
+  <img src="assets/karar_agaci.png" alt="Karar Ağacı" width="500"/>
+</div>
+
 
